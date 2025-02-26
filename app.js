@@ -16,16 +16,7 @@ app.get('/create', async (req, res) => {
     res.send(data);
 
   });
-// app.get('/create', async (req, res) => {
-//     const data= await userData.create({
-//          name:"amit",
-//          username:"amit34",
-//          email: "amit45@gamil.com",
-//          age: 21
-//      })
-//      res.send(data);
- 
-//    });
+
 
 
 
